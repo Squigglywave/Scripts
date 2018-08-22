@@ -13,8 +13,8 @@ DATA_DIR = './data/'
 IMAGE_PATH = './data/waving_hands_004.jpg'
 
 frozen_graph, input_names, output_names = build_detection_graph(
-    config='/home/autoware/tensorrt_ws/ssd_mobilenet_v1_coco_2018_01_28/pipeline.config',
-    checkpoint='/home/autoware/tensorrt_ws/ssd_mobilenet_v1_coco_2018_01_28/model.ckpt'
+    config='./pipeline.config',
+    checkpoint='./model.ckpt'
 )
 
 trt_graph = trt.create_inference_graph(
