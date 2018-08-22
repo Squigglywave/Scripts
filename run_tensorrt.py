@@ -13,7 +13,7 @@ DATA_DIR = './data/'
 IMAGE_PATH = './data/waving_hands_004.jpg'
 
 frozen_graph, input_names, output_names = build_detection_graph(
-    config='./ssd_mobilenet_v1_coco_2018_01_28/pipeline.config',
+    config='./pipeline.config',
     checkpoint='./model.ckpt'
 )
 
