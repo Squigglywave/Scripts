@@ -39,7 +39,7 @@ sudo apt-get update
 export USER=autoware
 
 # Install Dependencies
-sudo apt-get install -y python-pil python-lxml python-tk python-pip python-dev
+sudo apt-get install -y python-pil python-lxml python-tk python-pip python3-pip python-dev
 pip install --user Cython
 pip install --user contextlib2
 pip install --user jupyter
