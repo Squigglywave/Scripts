@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/autoware/crowdcountingdarknet
-./darknet detector demo /home/hecate/crowdcountingdarknet/cfg/coco.data /home/autoware/crowdcountingdarknet/cfg/yolov3.cfg /home/autoware/crowdcountingdarknet/weights/yolov3.weights /home/autoware/Videos/topdown.avi
+cd /home/boat/crowdcountingdarknet
+./darknet detector demo /home/boat/crowdcountingdarknet/cfg/coco.data /home/boat/crowdcountingdarknet/cfg/yolov3.cfg /home/boat/crowdcountingdarknet/weights/yolov3.weights /home/boat/Videos/topdown.avi
