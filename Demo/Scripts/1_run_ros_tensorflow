@@ -8,7 +8,7 @@ xterm -hold -e "cd ~/ros_ws/tensorflow_ws; source devel/setup.bash; roslaunch co
 
 sleep 2
 
-xterm -hold -e "cd ~/ros_ws/vidplay_ws; source devel/setup.bash; cd /home/apollo/ros_ws/vidplay_ws/src/ros-vidplay/vidplay/src; python vidplay.py" &
+xterm -hold -e "cd ~/ros_ws/vidplay_ws; source devel/setup.bash; cd /home/boat/ros_ws/vidplay_ws/src/ros-vidplay/vidplay/src; python vidplay.py" &
 
 sleep 2
 
