@@ -1,0 +1,15 @@
+#!/bin/bash
+
+xterm -hold -e "roscore" &
+
+sleep 2
+
+xterm -hold -e "cd ~/ros_ws/tensorflow_ws; source devel/setup.bash; roslaunch cob_people_object_detection_tensorflow cob_people_object_detection_tensorflow.launch" &
+
+sleep 2
+
+xterm -hold -e "cd ~/ros_ws/vidplay_ws; source devel/setup.bash; cd /home/apollo/ros_ws/vidplay_ws/src/ros-vidplay/vidplay/src; python vidplay.py" &
+
+sleep 2
+
+xterm -hold -e "rosrun rviz rviz -d ~/.rviz/tensorflow.rviz" &
