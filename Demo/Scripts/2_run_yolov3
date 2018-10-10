@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/Demo/darknet
+
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg weights/yolov3.weights /home/hecate/Demo/Videos/SantaClaraFootage/santa_clara_clipped_1280x720.mp4
